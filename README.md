@@ -43,7 +43,7 @@ Steps to Test with a RESTful client
     "postCode":"WC2E9EQ"
 }
 6.	Click on Send.
-7.	On the right side, you should see a HTTP 200 OK. This means the Shop details have been added to memory.
+7.	Below in response, you should see a HTTP 201 Created. This means the Shop details have been added to memory.
 8.	Choose GET from dropdown, and paste url http://localhost:8080/nearestShop?latitude=51.508749&longitude=-0.1277583. This is to get nearest shop details given existing coordinates via request params.
 9.	Click on Send.
 10.	Postman should receive json data of the nearest shop details like this:
