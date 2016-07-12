@@ -34,7 +34,7 @@ Steps to Test with a RESTful client
 
 1.	Install Chrome and go to https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop
 2.	Click on Add to Chrome to install the Postman utility.
-3.	Open postman and paste the url http://localhost:8080/shops. This is to add shop details to memory.
+3.	Open postman , choose POST from dropdown, and paste the url http://localhost:8080/shops. This is to add shop details to memory.
 4.	Click on Body, and select Raw. Choose JSON(application/json)
 5.	Paste a sample data for store like below:
 {
@@ -44,7 +44,7 @@ Steps to Test with a RESTful client
 }
 6.	Click on Send.
 7.	On the right side, you should see a HTTP 200 OK. This means the Shop details have been added to memory.
-8.	Paste url http://localhost:8080/nearestShop?latitude=51.508749&longitude=-0.1277583. This is to get nearest shop details given existing coordinates via request params.
+8.	Choose GET from dropdown, and paste url http://localhost:8080/nearestShop?latitude=51.508749&longitude=-0.1277583. This is to get nearest shop details given existing coordinates via request params.
 9.	Click on Send.
 10.	Postman should receive json data of the nearest shop details like this:
 
