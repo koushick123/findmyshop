@@ -6,6 +6,7 @@ Below are the steps required to build, test and run the jar file. You can also u
 Building and running ShopAPI
 
 Required installations
+
 1.	Install Gradle 2.3 from https://services.gradle.org/distributions
 2.	Add installation directory of Gradle 2.3 to PATH environment variable.
 3.	Install JDK 1.7 from http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
@@ -14,6 +15,7 @@ Required installations
 
 
 Steps to build, test and run
+
 1.	Download the ZIP file from https://github.com/koushick123/findmyshop.git.
 2.	Unzip the file into your working directory.
 3.	Open cmd prompt and go to the findmyshop-master folder.
@@ -28,6 +30,7 @@ Steps to build, test and run
 
 
 Steps to Test with a RESTful client
+
 1.	Install Chrome and go to https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop
 2.	Click on Download to install the Postman utility.
 3.	Open postman and paste the url http://localhost:8080/shops. This is to add shop details to memory.
