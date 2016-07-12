@@ -1,4 +1,6 @@
 findmyshop is a RESTful API which finds the nearest retail store with respect to a user's location.
+It also can be used to add more retail destinations.
+
 Below are the steps required to build, test and run the jar file. You can also use a RESTful client to test it.
 
 Building and running ShopAPI
