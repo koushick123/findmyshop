@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="findmyshop.HelloControllerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2016-07-10T07:44:59" hostname="IBM690-PC06LVS5" time="0.662">
+  <properties/>
+  <testcase name="getWelcome" classname="findmyshop.HelloControllerTest" time="0.628"/>
+  <testcase name="getHello" classname="findmyshop.HelloControllerTest" time="0.033"/>
+  <system-out><![CDATA[13:14:58.871 [Test worker] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class findmyshop.HelloControllerTest]
+13:14:58.876 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+13:14:58.885 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+13:14:58.902 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [findmyshop.HelloControllerTest] from class [org.springframework.test.context.web.WebTestContextBootstrapper]
+13:14:58.930 [Test worker] DEBUG org.springframework.test.context.web.WebTestContextBootstrapper - Found explicit ContextLoader class [org.springframework.boot.test.SpringApplicationContextLoader] for context configuration attributes [ContextConfigurationAttributes@7fccfa4d declaringClass = 'findmyshop.HelloControllerTest', classes = '{class org.springframework.mock.web.MockServletContext}', locations = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.boot.test.SpringApplicationContextLoader']
+13:14:58.941 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [findmyshop.HelloControllerTest]: class path resource [findmyshop/HelloControllerTest-context.xml] does not exist
+13:14:58.941 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [findmyshop.HelloControllerTest]: class path resource [findmyshop/HelloControllerTestContext.groovy] does not exist
+13:14:58.942 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [findmyshop.HelloControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+13:14:58.945 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [findmyshop.HelloControllerTest]
+13:14:58.950 [Test worker] DEBUG org.springframework.test.context.web.WebTestContextBootstrapper - @TestExecutionListeners is not present for class [findmyshop.HelloControllerTest]: using defaults.
+13:14:58.960 [Test worker] INFO org.springframework.test.context.web.WebTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+13:14:58.971 [Test worker] INFO org.springframework.test.context.web.WebTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+13:14:58.972 [Test worker] INFO org.springframework.test.context.web.WebTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+13:14:58.975 [Test worker] INFO org.springframework.test.context.web.WebTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7133795a, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@695973f9, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@6f17ee73, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3fe2bb69]
+13:14:58.978 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [findmyshop.HelloControllerTest]
+13:14:58.979 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [findmyshop.HelloControllerTest]
+13:14:58.984 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [findmyshop.HelloControllerTest]
+13:14:58.985 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [findmyshop.HelloControllerTest]
+13:14:58.986 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [findmyshop.HelloControllerTest]
+13:14:58.987 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [findmyshop.HelloControllerTest]
+13:14:58.989 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@4c4ca09 testClass = HelloControllerTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@6e96bd61 testClass = HelloControllerTest, locations = '{}', classes = '{class org.springframework.mock.web.MockServletContext}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
+13:14:58.990 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [findmyshop.HelloControllerTest]
+13:14:58.990 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [findmyshop.HelloControllerTest]
+13:14:59.093 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+13:14:59.096 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+13:14:59.096 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+13:14:59.098 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [integrationTest] PropertySource with search precedence immediately lower than [systemEnvironment]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.3.6.RELEASE)
+
+2016-07-10 13:14:59.423  INFO 3304 --- [    Test worker] findmyshop.HelloControllerTest           : Starting HelloControllerTest on IBM690-PC06LVS5 with PID 3304 (C:\Monitise\Dev_challenge\gs-spring-boot-master\complete\build\classes\test started by koushick in C:\Monitise\Dev_challenge\gs-spring-boot-master\complete)
+2016-07-10 13:14:59.426  INFO 3304 --- [    Test worker] findmyshop.HelloControllerTest           : No active profile set, falling back to default profiles: default
+2016-07-10 13:14:59.502  INFO 3304 --- [    Test worker] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@155738dc: startup date [Sun Jul 10 13:14:59 IST 2016]; root of context hierarchy
+2016-07-10 13:14:59.641  INFO 3304 --- [    Test worker] findmyshop.HelloControllerTest           : Started HelloControllerTest in 0.529 seconds (JVM running for 1.663)
+2016-07-10 13:14:59.807  INFO 3304 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped "{[/]}" onto public java.lang.String findmyshop.ShopAPIController.index()
+2016-07-10 13:14:59.811  INFO 3304 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped "{[/welcome],methods=[GET]}" onto public java.lang.String findmyshop.ShopAPIController.welcomeMessage()
+2016-07-10 13:15:00.117  INFO 3304 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@43e34df6
+2016-07-10 13:15:00.203  INFO 3304 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring FrameworkServlet ''
+2016-07-10 13:15:00.203  INFO 3304 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2016-07-10 13:15:00.205  INFO 3304 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 2 ms
+2016-07-10 13:15:00.297  INFO 3304 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped "{[/]}" onto public java.lang.String findmyshop.ShopAPIController.index()
+2016-07-10 13:15:00.297  INFO 3304 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped "{[/welcome],methods=[GET]}" onto public java.lang.String findmyshop.ShopAPIController.welcomeMessage()
+2016-07-10 13:15:00.319  INFO 3304 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@25a45771
+2016-07-10 13:15:00.325  INFO 3304 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring FrameworkServlet ''
+2016-07-10 13:15:00.325  INFO 3304 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2016-07-10 13:15:00.325  INFO 3304 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 0 ms
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
