@@ -33,7 +33,7 @@ Steps to build, test and run
 Steps to Test with a RESTful client
 
 1.	Install Chrome and go to https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop
-2.	Click on Download to install the Postman utility.
+2.	Click on Add to Chrome to install the Postman utility.
 3.	Open postman and paste the url http://localhost:8080/shops. This is to add shop details to memory.
 4.	Click on Body, and select Raw. Choose JSON(application/json)
 5.	Paste a sample data for store like below:
