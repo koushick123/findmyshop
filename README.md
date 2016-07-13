@@ -6,8 +6,12 @@
 The API also supports adding new retail information. This is given to API in the form of shop's name, number and postcode, and it obtains the latitude and longitude for that shop and stores them.
 </p>
 <p>
-Below are the steps required to build, test and run the jar file. You can also use a RESTful client to test it.</p>
 
+<h3>Design of findmyshop</h3>
+<p>
+The design documents FindMyShop_Class_Diagram.pdf and FindMyShop_Sequence_Diagram.pdf contain Class and Sequence diagrams of the findmyshop API.
+</p>
+<br>
 <h3><u>Building and running ShopAPI</u></h3>
 
 <h4><b>Required installations</b></h4>
