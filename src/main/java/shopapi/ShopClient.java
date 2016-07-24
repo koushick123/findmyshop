@@ -25,7 +25,6 @@ public class ShopClient {
 
         try {
             BufferedReader bufferedReader;
-            //bufferedReader = new BufferedReader(new FileReader(".\\src\\main\\java\\shopapi\\resource\\retailcoordinates.properties"));
             bufferedReader = new BufferedReader(new FileReader(".\\retailcoordinates.properties"));
             String currentLine;
 
