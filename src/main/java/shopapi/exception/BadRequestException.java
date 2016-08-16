@@ -5,6 +5,8 @@ package shopapi.exception;
  */
 public class BadRequestException extends Exception{
 
+	public static final String LAT_LONG_ERROR = "Latitude and Longitude should not be empty";
+	
     public BadRequestException(){
         super();
     }

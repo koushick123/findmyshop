@@ -87,7 +87,7 @@ public class ShopAPIController {
         if((latitude == null || longitude == null) ||
                 (latitude != null && latitude.trim().isEmpty()) || (longitude != null && longitude.trim().isEmpty()))
         {
-            throw new BadRequestException("Latitude and Longitude should not be empty");
+            throw new BadRequestException(BadRequestException.LAT_LONG_ERROR);
         }
 
         return shortestDistanceShop(latitude,longitude);
