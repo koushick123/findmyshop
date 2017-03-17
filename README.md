@@ -6,11 +6,6 @@
 The API also supports adding new retail information. This is given to API in the form of shop's name, number and postcode, and it obtains the latitude and longitude for that shop and stores them.
 </p>
 <p>
-
-<h3>Design of findmyshop</h3>
-<p>
-The design documents FindMyShop_Class_Diagram.pdf and FindMyShop_Sequence_Diagram.pdf contain Class and Sequence diagrams of the findmyshop API.
-</p>
 <br>
 <h3><u>Building and running ShopAPI</u></h3>
 
@@ -23,8 +18,6 @@ The design documents FindMyShop_Class_Diagram.pdf and FindMyShop_Sequence_Diagra
 <li>Add JDK1.7 to PATH, CLASSPATH and JAVA_HOME environment variable.</li>
 <li>Install IntelliJ community edition from https://www.jetbrains.com/idea/download/#section=windows</li>
 </ul>
-
-<br>
 <h4><b>Steps to build, test and run</b></h4>
 <ul>
 <li>Download the ZIP file from https://github.com/koushick123/findmyshop.git.</li>
